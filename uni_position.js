@@ -1,11 +1,11 @@
 const Web3 = require('web3');
 
 // Connect to Ethereum node
-const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/18bd809b41dc4037b2058f54f1a58e76'));
+const web3 = new Web3(new Web3.providers.HttpProvider('YOUR_API_KEY'));
 
 // Set the pool contract address and token address
-const poolContractAddress = '0xc43102992464930c1b7b6e62e961553053ca1377';
-const tokenAddress = '0xd502f487e1841fdc805130e13eae80c61186bc98';
+const poolContractAddress = '';
+const tokenAddress = '';
 
 // ABI for ERC20 `balanceOf` function
 const balanceOfAbi = {
